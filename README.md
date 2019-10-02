@@ -70,7 +70,7 @@ The following is the contents of `scene_2spheres_persp_phong.json`.
 }
 ```
 
-## Schema
+### Schema
 
 - A rayson scene is one JSON object with several mandatory key-value entries.
 - A `vector3` must be an array containing exactly three numbers, corresponding
