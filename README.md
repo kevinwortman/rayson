@@ -10,7 +10,7 @@ projects in the
 course at
 [CSU Fullerton](https://www.fullerton.edu).
 Therefore the scope of the format is narrow, covering only features that can
-be implemented as part of a class project, yet wide enough to encode
+be implemented as part of a class project, yet is still wide enough to encode
 non-trivial scenes.
 
 Our course follows the
@@ -36,7 +36,7 @@ The parser is a single-header library in `rayson.hpp`.
 
 The following is the contents of `scene_2spheres_persp_phong.json`.
 
-`
+```
 {
   "camera_eye" : [0, 0, 0],
   "camera_up" : [0, -1, 0],
@@ -68,7 +68,7 @@ The following is the contents of `scene_2spheres_persp_phong.json`.
     { "material" : "blue", "center" : [1.0, 0.0, 8.0], "radius" : 0.5}
   ]
 }
-`
+```
 
 ## Schema
 
